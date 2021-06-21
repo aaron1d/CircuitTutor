@@ -1,0 +1,14 @@
+/*
+.highlight {
+  stroke-color: "orange"
+}
+*/
+
+.editor {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-addwire {
+  background-color: #4CAF50;
+}
