@@ -1,25 +1,5 @@
-# ReduxSimpleStarter
+This is/was meant to be React-Redux app to outline the analytical solution of circuit problems à la Basic Engineering Circuit Analysis by Irwin & Nelms. The plan is/was to add roughly one mode per solution method. 
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+The enumeration of nodes and meshes are almost done, as (almost) is that of the Schematic. I want to add analysis modes for KVL, KCL, Thévenin/Norton, op-amps (no three-terminal devices yet0, superposition, transient analysis, steady-state analysis, etc.
 
-###Getting Started###
-
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
+Suitable libraries for a javascript CAS are sparse...
